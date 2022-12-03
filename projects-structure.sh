@@ -1,5 +1,5 @@
 #!/bin/bash
-# A simple Bash Script To Generate My Project code Structure
+# A simple Bash Script To Generate My Different Projects Folder Structure
 
 echo Iniciando Script
 
