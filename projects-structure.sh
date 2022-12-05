@@ -16,12 +16,16 @@ mkdir Mobile-Development
 
 cd Mobile-Development
 
+echo Descargando Proyectos de Mobile-Development 
+
 git clone https://github.com/ArkhamKnightXD/shopping-mobile-app.git
 git clone https://github.com/ArkhamKnightXD/testing-react-native.git
 git clone https://github.com/ArkhamKnightXD/testing-flutter.git
 
 cd ..
 cd Game-Development
+
+echo Descargando Proyectos de Game-Development
 
 git clone https://github.com/ArkhamKnightXD/pong-game.git
 git clone https://github.com/ArkhamKnightXD/journey.git
@@ -34,6 +38,8 @@ git clone https://github.com/ArkhamKnightXD/snake-game.git
 
 cd ..
 cd Backend-Development
+
+echo Descargando Proyectos de Backend-Development
 
 git clone https://github.com/ArkhamKnightXD/shipping-api.git
 git clone https://github.com/ArkhamKnightXD/loan-api.git
@@ -49,6 +55,8 @@ git clone https://github.com/ArkhamKnightXD/spring-boot-ontology-test.git
 
 cd ..
 cd Frontend-Development
+
+echo Descargando Proyectos de Frontend-Development
 
 git clone https://github.com/ArkhamKnightXD/game-changer-frontend-v2.git
 git clone https://github.com/ArkhamKnightXD/react-type.git

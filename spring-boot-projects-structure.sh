@@ -11,12 +11,13 @@ echo Digite el nombre del folder principal:
 
 read mainFolderName
 
-cd C:/Projects/Backend-Development/$projectFolderName/src/main/java/knight/arkham/$mainFolderName
 
-mkdir config
-mkdir controllers
-mkdir models
-mkdir repositories
-mkdir services
+#De esta forma copio carpetas y sus contenidos de un sitio a otro. El primer path es el source y el otro el destination
+cp -r C:/Projects/easy-life-scripts/spring-mockup-classes/controllers C:/Projects/Backend-Development/$projectFolderName/src/main/java/knight/arkham/$mainFolderName
+cp -r C:/Projects/easy-life-scripts/spring-mockup-classes/services C:/Projects/Backend-Development/$projectFolderName/src/main/java/knight/arkham/$mainFolderName
+cp -r C:/Projects/easy-life-scripts/spring-mockup-classes/entities C:/Projects/Backend-Development/$projectFolderName/src/main/java/knight/arkham/$mainFolderName
+cp -r C:/Projects/easy-life-scripts/spring-mockup-classes/repositories C:/Projects/Backend-Development/$projectFolderName/src/main/java/knight/arkham/$mainFolderName
+cp -r C:/Projects/easy-life-scripts/spring-mockup-classes/resources C:/Projects/Backend-Development/$projectFolderName/src/main/
+
 
 echo Proceso Completado
