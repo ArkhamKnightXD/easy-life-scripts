@@ -1,5 +1,5 @@
 #!/bin/bash
-# A simple Bash Script To Generate My Different Projects Folder Structure
+# A simple Bash Script To Install React Dependencies
 
 echo Iniciando Script
 
