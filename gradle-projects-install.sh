@@ -1,6 +1,5 @@
 #!/bin/bash
-# A simple Bash Script To Install Spring-Boot Dependencies, 
-#Se requiere la instalacion de gradle, no funciona como quisiera. Intentare mas cosas sino se quedara asi
+# A simple Bash Script To Install Spring-Boot Dependencies
 
 echo Iniciando Script
 
