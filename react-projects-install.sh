@@ -39,7 +39,7 @@ npm install
 cd ..
 
 cd template
-npm install
+yarn install
 
 cd ..
 
