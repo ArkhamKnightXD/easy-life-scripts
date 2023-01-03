@@ -3,7 +3,7 @@
 
 echo Iniciando Script
 
-cd C:\
+cd ..
 
 mkdir Projects 
 
@@ -52,6 +52,8 @@ git clone https://github.com/ArkhamKnightXD/breaking-bad-app.git
 git clone https://github.com/ArkhamKnightXD/game-changer.git
 git clone https://github.com/ArkhamKnightXD/game-changer-backend-v2.git
 git clone https://github.com/ArkhamKnightXD/spring-boot-ontology-test.git
+git clone https://github.com/ArkhamKnightXD/advent-of-code-challenges.git
+
 
 cd ..
 cd Frontend-Development
@@ -70,5 +72,3 @@ git clone https://github.com/ArkhamKnightXD/arkhamknightxd.github.io.git
 git clone https://github.com/ArkhamKnightXD/loan-frontend.git
 
 echo Proceso Completado
-
-

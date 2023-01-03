@@ -9,92 +9,75 @@ cd C:/Projects/Backend-Development/
 echo Descargando dependencias de los Proyectos Backend-Development
 
 cd arkham-knight-practica13
-gradle build
-
+./gradlew clean build
 cd ..
 
 cd breaking-bad-app
-gradle build
-
+./gradlew clean build
 cd ..
 
 cd covid-19-app
-gradle build
-
+./gradlew clean build
 cd ..
 
 cd game-changer
-gradle build
-
+./gradlew clean build
 cd ..
 
 cd game-changer-backend-v2
-gradle build
-
+./gradlew clean build
 cd ..
 
 cd loan-api
-gradle build
-
+./gradlew clean build
 cd ..
 
 cd spring-boot-ontology-test
-gradle build
-
+./gradlew clean build
 cd ..
 
 cd secure-app
-gradle build
-
+./gradlew clean build
 cd ..
 
 cd shipping-api
-gradle build
+./gradlew clean build
+cd ..
 
 echo instalacion de dependencias de proyectos Backend-Development concluida
 
 cd ..
 
-cd ..
-
 cd Game-Development
+
 echo Descargando dependencias de los Proyectos Game-Development
 
 cd gdx-playground
-gradle build
-
+./gradlew clean build
 cd ..
 
 cd journey
-gradle build
-
+./gradlew clean build
 cd ..
 
 cd libgdx-platformer
-gradle build
-
+./gradlew clean build
 cd ..
 
 cd libgdx-test
-gradle build
-
+./gradlew clean build
 cd ..
 
 cd pong-game 
-gradle build
-
+./gradlew clean build
 cd ..
 
 cd smb-clone
-gradle build
-
+./gradlew clean build
 cd ..
 
 cd snake-game
-gradle build
+./gradlew clean build
+cd ..
 
 echo instalacion de dependencias de proyectos Game-Development concluida
-
-echo Proceso Completado
-
-
