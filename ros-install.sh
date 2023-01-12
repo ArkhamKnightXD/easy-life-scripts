@@ -28,6 +28,7 @@ sudo apt install python3-rosdep -y
 
 rosdep update
 sudo rosdep init
+rosdep update
 
 echo Creando carpeta de trabajo
 
