@@ -5,8 +5,7 @@ echo Instalacion inicial
 
 cd ~
 
-sudo apt update
-sudo apt upgrade -y
+sudo apt update && sudo apt upgrade -y
 
 sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
 
@@ -24,7 +23,8 @@ echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 
 sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential -y
-sudo apt install python3-rosdep -y
+
+sudo apt upgrade --fix-missing -y
 
 rosdep update
 sudo rosdep init
@@ -35,9 +35,13 @@ echo Creando carpeta de trabajo
 mkdir ROS_CRP
 mkdir -p ~/ROS_CRP/catkin_ws/src
 
+cd ~/ROS_CRP/catkin_ws
+
 catkin_make
 
 echo modificando el archivo bashrc
+
+cd ~
 
 #nano ~/.bashrc
 
