@@ -5,16 +5,18 @@ echo Iniciando Script
 
 echo Digite el nombre del folder del proyecto:
 
-#De esta forma almaceno el input del usuario en una variable
 read projectFolderName
 
-#De esta forma utilizo la variable, los / deben de ser en esta dirección o sino habra error a la hora de utilizar variables. 
-cd C:/Projects/Game-Development/$projectFolderName/core/src/main/java/knight/arkham
+cp -r C:/Projects/easy-life-scripts/libgdx-mockup-classes/helpers C:/Projects/Game-Development/$projectFolderName/core/src/main/java/knight/arkham
+cp -r C:/Projects/easy-life-scripts/libgdx-mockup-classes/objects C:/Projects/Game-Development/$projectFolderName/core/src/main/java/knight/arkham
+cp -r C:/Projects/easy-life-scripts/libgdx-mockup-classes/screens C:/Projects/Game-Development/$projectFolderName/core/src/main/java/knight/arkham
 
-mkdir helpers
-mkdir scenes
-mkdir screens
-mkdir sprites
+cd C:/Projects/Game-Development/$projectFolderName/assets/
+
+mkdir data
+mkdir fx
+mkdir images
+mkdir maps
 
 echo Proceso Completado
 
