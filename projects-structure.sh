@@ -35,6 +35,12 @@ git clone https://github.com/ArkhamKnightXD/learning-godot.git
 git clone https://github.com/ArkhamKnightXD/libgdx-platformer.git
 git clone https://github.com/ArkhamKnightXD/gdx-playground.git
 git clone https://github.com/ArkhamKnightXD/snake-game.git
+git clone https://github.com/ArkhamKnightXD/space-invaders.git
+git clone https://github.com/ArkhamKnightXD/new-pong.git
+git clone https://github.com/ArkhamKnightXD/breakout.git
+git clone https://github.com/ArkhamKnightXD/jammin-2023.git
+git clone https://github.com/ArkhamKnightXD/breakout-no-box2D.git
+git clone https://github.com/ArkhamKnightXD/alt-pong.git
 
 cd ..
 cd Backend-Development
